@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Test suite" verbose="2">
+    <test name="Test cases">
+        <classes>
+            <class name="testNG.PriorityTest01" />
+            <class name="testNG.DependsOnTest" />
+        </classes>
+    </test>
+</suite>
+
+
+
+
