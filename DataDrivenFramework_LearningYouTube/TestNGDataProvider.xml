@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+
+<suite name="Login Suite Using TestNG Data Provider">
+
+    <!--        This is from extentreports-testng-adapter dependency-->
+    <listeners>
+        <listener class-name="com.aventstack.extentreports.testng.listener.ExtentITestListenerClassAdapter"/>
+    </listeners>
+
+<!--    <test name="DataProviderTest">-->
+<!--        <classes>-->
+<!--            <class name="DataDrivenTests.LoginUsingDataProvider"/>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+
+    <test name="DataProviderTest">
+        <classes>
+            <class name="DataDrivenTests.LoginUsingDataProviderByReadingExcel"/>
+        </classes>
+    </test>
+
+
+</suite>
