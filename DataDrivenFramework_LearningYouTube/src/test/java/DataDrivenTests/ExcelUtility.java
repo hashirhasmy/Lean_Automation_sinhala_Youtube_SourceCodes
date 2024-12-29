@@ -12,13 +12,13 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class ExcelUtility {
-    public static FileInputStream fi;
-    public static FileOutputStream fo;
-    public static XSSFWorkbook wb;
-    public static XSSFSheet sh;
-    public static XSSFRow row;
-    public static XSSFCell cell;
-    public static CellStyle style;
+    public FileInputStream fi;
+    public FileOutputStream fo;
+    public XSSFWorkbook wb;
+    public XSSFSheet sh;
+    public XSSFRow row;
+    public XSSFCell cell;
+    public CellStyle style;
 
     String path;
 
