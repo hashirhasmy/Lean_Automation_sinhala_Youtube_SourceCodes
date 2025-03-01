@@ -26,6 +26,7 @@ Follow along with the YouTube playlists for each project — step by step!
 🎯 Stay Connected
 
 💡 Don't miss out on new tutorials and project updates — Subscribe to the channel and hit the notification bell!
+
 📩 For questions or collaborations, feel free to reach out via the Issues section or connect with me on LinkedIn.
 
 ⭐ Contribute & Support
