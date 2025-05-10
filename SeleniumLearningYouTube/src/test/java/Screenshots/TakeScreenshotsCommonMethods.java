@@ -19,6 +19,7 @@ import java.util.Date;
 public class TakeScreenshotsCommonMethods {
 
     public static void takeWebPageScreenShot(WebDriver driver, String filename) throws IOException {
+        //String timestamp = new SimpleDateFormat("yyyy.MM.dd_HH.mm.ss").format(new Date());
         // Create a date formatter
         SimpleDateFormat formatter = new SimpleDateFormat("yyyy.MM.dd_HH.mm.ss");
         // Get the current date and time
